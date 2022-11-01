@@ -1,0 +1,77 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§bAdvanced Item Info v1.0§r",
+        "description": "§rCreated by: §b§lWoopertail\n§rWebsite: §b§lwoopertail.ru\n§rDS: §b§ldiscord.gg/hYtZMEfZSE",
+        "uuid": "590b0410-9163-475f-96ea-5d5e0aa8565b",
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+
+    "modules": [
+        {
+            "description": "zzz",
+            "uuid": "e1cfc842-eb14-4ada-9d90-b5265eac0ab2",
+            "type": "resources",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+
+    "subpacks": [
+        {
+            "folder_name": "no_change",
+            "memory_tier": 0,
+            "name": "\n%subpack.no_changes.name"
+        },
+        {
+            "folder_name": "no_offset",
+            "memory_tier": 0,
+            "name": "\n%subpack.actionbar.name \n%subpack.offset_0.name"
+        },
+        {
+            "folder_name": "offset_10",
+            "memory_tier": 0,
+            "name": "\n%subpack.actionbar.name \n%subpack.offset_10.name"
+        },
+        {
+            "folder_name": "offset_20",
+            "memory_tier": 0,
+            "name": "\n%subpack.actionbar.name \n%subpack.offset_20.name"
+        }
+    ],
+
+    "settings": [
+        {
+            "type": "label",
+            "text": "commonui.warning"
+        },
+        {
+            "type": "label",
+            "text": "settings.text1"
+        },
+        {
+            "type": "label",
+            "text": "settings.text2"
+        },
+        {
+            "type": "label",
+            "text": "%settings.text3"
+        },
+        {
+            "type": "label",
+            "text": "%settings.text4 \n%settings.text4.line2"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "format_version": "1.16.100",
+    "sound_definitions": {
+        "aii.tada":{
+            "category": "ui",
+            "sounds": ["sounds/tada"]
+        }
+    }
+}

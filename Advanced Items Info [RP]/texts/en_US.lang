@@ -1,0 +1,259 @@
+##This code is part of Advanced Item Info add-on.
+##Created by: Woopertail
+##github.com/woopertail
+
+##Do not modify, distribute, distribute modified without my permission.
+
+commonui.back=<- Back
+commonui.close=Close
+commonui.warning=§c§lWarning!§r The translation in your language may be incomplete, contain errors or be completely absent. If you see mistakes or want to write your own version of the translation, write to me (my contacts in the Credits tab). You will be added to Credits.
+
+
+## WELCOME UI
+welcomeui.line1=§2Thank you for downloading and installing the §6§lAdvanced Item Info §r§2add-on!§r
+welcomeui.line2=Updates to this addon, my other addons and more can be found on my §l§9Discord server!§r
+welcomeui.discord=§l§9discord.gg/hYtZMEfZSE§r
+welcomeui.line3=To open the AII settings menu, enter the following command:
+welcomeui.line4=§7----------§r
+welcomeui.line5=§7| §b--aii§r
+welcomeui.line6=§7----------§r
+welcomeui.line7=In the settings menu you can §3turn on/off the display of certain types of information, as well as customize its mode of display.§r
+welcomeui.line8=§7§o(This window will no longer appear to you in this world.)§r
+
+
+mainui.button.help=Help
+mainui.button.settings=Settings
+mainui.button.credits=Credits
+
+
+## Settings UI
+settingsui.title=AII Settings
+
+settingsui.drop.toggle= Drops info
+settingsui.drop.mode=Mode
+settingsui.drop.mode.value0=All: (2-4) (1, 33%) (2, 50%)
+settingsui.drop.mode.value1=Mobs only: 
+
+settingsui.hunger.toggle= Hunger
+settingsui.hunger.mode=Mode
+settingsui.hunger.mode.value0=All:  4/6.2
+settingsui.hunger.mode.value1=Values only:  4/6.2
+settingsui.hunger.mode.value2=Bar only: 
+
+settingsui.foodeffects.toggle= Food effects
+settingsui.foodeffects.mode=Mode
+settingsui.foodeffects.mode.value0=All: §c(III, 30s, 20%)§r §a(IV, 120s)§r §a(I, 120s, 90%)§r §a(II, 20s)§r
+settingsui.foodeffects.mode.value1=Effects only: 
+
+settingsui.protection.toggle= Protection
+settingsui.protection.mode=Mode
+settingsui.protection.mode.value0=All:  7
+settingsui.protection.mode.value1=Value only:  7
+settingsui.protection.mode.value2=Bar only: 
+
+settingsui.damage.toggle= Damage
+settingsui.damage.mode=Mode §7(sometimes the information about the damage of the effects is displayed incompletely or not displayed at all. Waiting for Mojang to fix it).§r
+settingsui.damage.mode.value0=All: 4 3 2 §c-1§r  8/§611§r
+settingsui.damage.mode.value1=Total value only:  8/§611§r
+settingsui.damage.mode.value2=All values: 4 3 2 §c-1§r  8/§611§r
+settingsui.damage.mode.value3=Bar only:    
+settingsui.damage.mode.value4=Bar & Total value:      8/§611§r
+
+settingsui.brightness.toggle= Brightness
+settingsui.brightness.mode=Mode
+settingsui.brightness.mode.value0=All:  4
+settingsui.brightness.mode.value1=Value only:  4
+settingsui.brightness.mode.value2=Bar only: 
+
+settingsui.durability.toggle= Durability
+settingsui.durability.mode=Mode §7(there is no way to know the current durability of vanilla items at the moment. For vanilla items only maximum durability is displayed. Waiting for Mojang to fix it).§r
+settingsui.durability.mode.value0=All:  483/550 (484/551)
+settingsui.durability.mode.value1=Durability:  483/550
+settingsui.durability.mode.value2=Uses:  484/551
+
+settingsui.id.toggle= ID & Data
+settingsui.id.mode=Mode
+settingsui.id.mode.value0=Namespace & ID: minecraft:dirt
+settingsui.id.mode.value1=ID only: dirt
+
+
+## FAQ
+## DROP
+faq.drop.line1=Shows information about the drop of the selected item.
+faq.drop.line2=Works only with vanilla items.
+faq.drop.line3=§b§l"Mobs Only" mode§r 
+faq.drop.line4=Shows only mobs that drop the selected item. For example:
+faq.drop.line5=
+faq.drop.line6=§b§l"All" mode§r
+faq.drop.line7=Shows mobs that drop the selected item, number of items, as well as the probability and conditions of dropping. For example:
+faq.drop.line8=(2-4 +1/) (1 +1/, 33% +5%/) (2 +1/, 50%)
+faq.drop.line9=In this mode, mobs are divided into groups based on their item drop parameters. Each group is separated by parentheses:
+faq.drop.line10=() ()
+faq.drop.line11=After the mobs is written number of items and the probability of dropping. If the probability is not specified, then it is 100%:
+faq.drop.line12=(3-4) (2, 80%)
+faq.drop.line13=The expression above means that the item drops from zombies and zombie villagers in the amount of 3-4 pcs with a 100% probability, and from creepers, withers and slimes in the amount of 2 pcs with a probability of 80%.
+faq.drop.line14=To the data on the number and probability of dropping can be added information about their increase for the use of §d§o"Looting" enchantment:§r 
+faq.drop.line15=(3-4 +1/) (2 +3/, 80% +1.02%/)
+faq.drop.line16=Adding to the expression above means that the maximum number of items dropped from zombies and zombie villagers is increased by 1 for each level of §d§o"Looting" enchantment.§r 
+faq.drop.line17=The maximum number of items dropped from a creepers, withers, and slimes is increased by 3 for each level of the §d§o"Looting" enchantment.§r Also increases the probability of dropping by 1.02% per level.
+faq.drop.line18=Sometimes, in order for an item to drop from a mob, some conditions must be met. If the item has a condition of dropping, it will always be separated from the rest of the information with . The most common condition: the mob must be killed by someone. In this case the sword icon is used:
+faq.drop.line19=(1) 
+faq.drop.line20=The expression above means that the item will drop from the spiders in the amount of 1 pc with 100% probability and only if spider is killed by the player (or tamed dog).
+faq.drop.line21=Mobs on the left of - those who must kill. On the right are those who must be killed.
+faq.drop.line22=Below is a list of all conditions and their expressions:
+faq.drop.line23= - mob has to be killed by a player or tamed dog.
+faq.drop.line24= - mob has to be killed by another specific mob(s).
+faq.drop.line25= - mob has to die in the fire or be killed with a sword with the §d§o"Fire Aspect" enchantment.§r
+faq.drop.line26= - mob has to die from lightning.
+faq.drop.line27= - player has to sleep for the mob to drop the item.
+faq.drop.line28= - mob has to grow up to drop the item.
+faq.drop.line29=5-10m - it is necessary to wait for the specified time for the mob to drop the item.
+faq.drop.line30= - item has to be equipped by a mob.
+faq.drop.line31= - it is necessary to use (press RMB on the mob) the specified item to get the drop.
+faq.drop.line32=Item icons:
+faq.drop.line33=     - shears
+faq.drop.line34=     - bowl
+faq.drop.line35=     - bucket
+faq.drop.line36=     - gold ingot
+
+
+## HUNGER
+faq.hunger.line1=Shows how many hunger and saturation points the selected item regenerates.
+faq.hunger.line2=Works with all food, including food added with add-ons.
+faq.hunger.line3=§b§l"Only values" mode§r 
+faq.hunger.line4=Shows only the numeric values of restored hunger and saturation. For example (cooked porkchop):
+faq.hunger.line5= 8/12.8
+faq.hunger.line6=§b§l"Only bar" mode§r 
+faq.hunger.line7=Shows only the restorable hunger and saturation bar. For example (cooked porkchop):
+faq.hunger.line8=
+faq.hunger.line9=§b§l"All" mode§r 
+faq.hunger.line10=Shows the restorable hunger and saturation bar and its numeric values. For example (cooked porkchop):
+faq.hunger.line11= 8/12.8
+faq.hunger.line12=Numeric values are in "hunger points/saturation points" format.
+faq.hunger.line13=Hunger points are represented by icons (1) and (2).
+faq.hunger.line14=The saturation points are represented by a yellow outline around the hunger icons:
+faq.hunger.line15= (0.01 - 0.5)
+faq.hunger.line16= (0.51 - 1)
+faq.hunger.line17= (1.01 - 1.5)
+faq.hunger.line18= (1.51 - 2)
+
+
+## FOOD EFFECTS
+faq.foodeffects.line1=Shows information about the effects the player gets if he eats the selected item.
+faq.foodeffects.line2=Works only with vanilla food.
+faq.foodeffects.line3=§b§l"Only effects" mode§r 
+faq.foodeffects.line4=Shows only effect icons. For example (golden apple):
+faq.foodeffects.line5=
+faq.foodeffects.line6=§b§l"All" mode§r 
+faq.foodeffects.line7=Shows effects, their levels, duration and probability of getting them.
+faq.foodeffects.line8=In this mode each effect is separated by parentheses. After the effect icon there is its level (minimum value - I), duration and probability to get it, if it is not equal to 100%.
+faq.foodeffects.line9=§a(II, 5s) (I, 120s)§r
+faq.foodeffects.line10=The expression above means that after the player eats the selected item, he will get the §a"Regeneration" II effect for 5 seconds§r and §a"Absorption" I effect for 120 seconds.§r
+faq.foodeffects.line11=If the effect is positive, the information will be written in §agreen.§r
+faq.foodeffects.line12=If the effect is negative, the information will be written in §cred:§r
+faq.foodeffects.line13=§c(I, 30s, 30%)§r
+faq.foodeffects.line14=The expression above means that if the player eats the selected item, then §ra 30% chance he will get  "Hunger" I effect for 30 seconds.§r
+
+
+## PROTECTION
+faq.protection.line1=Shows the protection points of the selected item.
+faq.protection.line2=Works only with vanilla items.
+faq.protection.line3=§b§l"Only value" mode§r
+faq.protection.line4=Shows only the numeric value of protection. For example (iron leggings):
+faq.protection.line5= 5
+faq.protection.line6=§b§l"Only bar" mode§r 
+faq.protection.line7=Shows only the protection bar. For example (iron leggings):
+faq.protection.line8=
+faq.protection.line9=§b§l"All" mode"§r 
+faq.protection.line10=Shows the protection bar and its numeric value. For example (iron leggings):
+faq.protection.line11= 5
+
+
+## DAMAGE
+faq.damage.line1=Shows the damage of the selected item.
+faq.damage.line2=Works only with vanilla items.
+faq.damage.line3=Damage is the sum of base damage, enchantment damage, and effect damage enhancements.
+faq.damage.line4=§b§l"Total value only" mode§r
+faq.damage.line5=Shows only the total numeric values of damage and §6critical damage§r. For example (iron sword):
+faq.damage.line6= 7/§610.5§r
+faq.damage.line7=§b§l"All values" mode§r
+faq.damage.line8=Shows only the numeric values of each damage aspect + the numeric values of total damage and §6critical damage§r. For example (iron sword + §d§o"Sharpness" V enchantment§r):
+faq.damage.line9=7 6.25  13.25/§619.87
+faq.damage.line10=§b§l"Bar only" mode§r
+faq.damage.line11=Shows only the bars of each damage aspect (§6critical damage§r is not shown). For example (iron sword + §d§o"Sharpness" V enchantment§r):
+faq.damage.line12= 
+faq.damage.line13=§b§l"Bar and total value" mode§r
+faq.damage.line14=Shows the bars of each damage aspect and the total numeric values of damage and §6critical damage§r. For example (iron sword + §d§o"Sharpness" V enchantment§r):
+faq.damage.line15=   13.25/§619.87
+faq.damage.line16=§b§l"All" mode§r
+faq.damage.line17=Shows the bars of each damage aspect, their numeric values and the total values of damage and §6critical damage§r. For example (iron sword + §d§o"Sharpness" V enchantment§r):
+faq.damage.line18=7 6.25  13.25/§619.87
+faq.damage.line19=§d§lEnchantment damage§r
+faq.damage.line20=Shown with icons (0.01-1) and (1.01-2).
+faq.damage.line21=§d§lIncreased damage from the "Strength" effect§r
+faq.damage.line22=Shown with icons (0.01-1) and (1.01-2).
+faq.damage.line23=§d§lDamage reduction from the "Weakness" effect§r
+faq.damage.line24=Shown with icons (0.01-1) and (1.01-2).
+
+
+## BRIGHTNESS
+faq.brightness.line1=Shows the brightness of the selected block.
+faq.brightness.line2=Works only with vanilla blocks.
+faq.brightness.line3=§b§l"Values only" mode§r 
+faq.brightness.line4=Shows only the numeric value of brightness. For example (torch):
+faq.brightness.line5= 14
+faq.brightness.line6=§b§l"Bar only" mode§r 
+faq.brightness.line7=Shows only the brightness bar. For example (torch):
+faq.brightness.line8=
+faq.brightness.line9=§b§l"All" mode§r 
+faq.brightness.line10=Shows the brightness bar and its numeric value. For example (torch):
+faq.brightness.line11= 14
+faq.brightness.line12=If a block has several states with different brightness, they are described line by line. For example (respawn anchor):
+faq.brightness.line13=1/4:  3
+faq.brightness.line14=2/4:  7
+faq.brightness.line15=3/4:  11
+faq.brightness.line16=4/4:  15
+faq.brightness.line17=The type of brightness writing after the block state description depends on the selected mode.
+
+
+## DURABILITY
+faq.durability.line1=Shows the current and maximum durability of the selected item.
+faq.durability.line2=Works with all items, including those added by add-ons. For vanilla items only the maximum durability is shows, because at the moment there is no way to know their current durability.
+faq.durability.line3=§b§l"Durability" mode§r 
+faq.durability.line4=Shows the durability. For example:
+faq.durability.line5= 423/550
+faq.durability.line6=§b§l"Uses" mode§r 
+faq.durability.line7=Shows number of uses (always 1 more than durability). For example:
+faq.durability.line8= 424/551
+faq.durability.line9=§b§l"All" mode§r 
+faq.durability.line10=Shows both the durability and the number of uses. For example:
+faq.durability.line11= 423/550 (424/551)
+
+
+## ID
+faq.id.line1=Shows the ID of the selected item.
+faq.id.line2=Works with all items and blocks, including those added by add-ons.
+faq.id.line3=§b§l"ID only" mode§r
+faq.id.line4=Shows only the ID. For example (dirt block):
+faq.id.line5=§edirt§r
+faq.id.line6=§b§l"Namespace & ID" mode§r
+faq.id.line7=Shows the namespce and id. For example (dirt block):
+faq.id.line8=§eminecraft:dirt§r
+faq.id.line9=If an item's data is 0, it does not show. Otherwise, it is shown in parentheses. For example (red glass block):
+faq.id.line10=§eminecraft:stained_glass (14)§r
+faq.id.line11=or (depending on the selected mode)
+faq.id.line12=§estained_glass (14)§r
+
+
+## pack and subpacks names
+subpack.no_changes.name=§3Do not change the position of the ActionBar. §c(not recommended)
+subpack.actionbar.name=§3Actionbar: top-center.
+subpack.offset_0.name=§aTop indent: 0px.
+subpack.offset_10.name=§aTop indent: 10px.
+subpack.offset_20.name=§aTop indent: 20px.
+
+settings.text1=If the location of the actionbar does not change, §arestart Minecraft.§r
+settings.text2=If you are connecting to a world where the AII resource pack is already installed, you §c§ldo NOT need§r to activate it in the game settings.
+settings.text3=To fully configure the AII, enter the command §b--aii.§r
+settings.text4=If you have any questions, stop by my §b§lDiscord server.§r
+settings.text4.line2=§b§ldiscord.gg/hYtZMEfZSE§r
