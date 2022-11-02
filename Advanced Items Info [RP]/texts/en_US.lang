@@ -1,4 +1,4 @@
-##This code is part of Advanced Item Info add-on.
+##This code is part of Advanced Items Info add-on.
 ##Created by: Woopertail
 ##github.com/woopertail
 
@@ -10,7 +10,7 @@ commonui.warning=§c§lWarning!§r The translation in your language may be incom
 
 
 ## WELCOME UI
-welcomeui.line1=§2Thank you for downloading and installing the §6§lAdvanced Item Info §r§2add-on!§r
+welcomeui.line1=§2Thank you for downloading and installing the §6§lAdvanced Items Info §r§2add-on!§r
 welcomeui.line2=Updates to this addon, my other addons and more can be found on my §l§9Discord server!§r
 welcomeui.discord=§l§9discord.gg/hYtZMEfZSE§r
 welcomeui.line3=To open the AII settings menu, enter the following command:

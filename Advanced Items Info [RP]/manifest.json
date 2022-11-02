@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-        "name": "§bAdvanced Item Info v1.0§r",
-        "description": "§rCreated by: §b§lWoopertail\n§rWebsite: §b§lwoopertail.ru\n§rDS: §b§ldiscord.gg/hYtZMEfZSE",
+        "name": "§bAdvanced Items Info v1.0§r",
+        "description": "§rCreated by: §b§lWoopertail\n§rDS: §b§ldiscord.gg/hYtZMEfZSE\n§a§lmcpedl.com/advanced-items-info",
         "uuid": "590b0410-9163-475f-96ea-5d5e0aa8565b",
         "min_engine_version": [
             1,

@@ -115,7 +115,7 @@ const creditsUi = generateCreditsUI();
 
 function generateWelcomeUI(){
     const welcomeUI = new ui.ActionFormData()
-    .title("Advanced Item Info")
+    .title("Advanced Items Info")
     .body(`%welcomeui.line1
 
 %welcomeui.line2
@@ -137,7 +137,7 @@ function generateWelcomeUI(){
 
 function generateMainUI() {
     const mainUI = new ui.ActionFormData()
-    .title("Advanced Item Info")
+    .title("Advanced Items Info")
     .body("commonui.warning")
     .button("mainui.button.help", "textures/ui/help")
     .button("mainui.button.settings", "textures/ui/settings")
@@ -176,7 +176,7 @@ function generateSettingsUI(playerSettings, aiiDisabled = false) {
 function generateCreditsUI() {
     let creditsUi = new ui.ActionFormData()
     .title("%mainui.button.credits")
-    .body(`§l§6Advanced Item Info§r
+    .body(`§l§6Advanced Items Info§r
 §3by Woopertail§r
 
  §9discord.gg/hYtZMEfZSE§r
