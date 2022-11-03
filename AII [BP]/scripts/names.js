@@ -26,21 +26,21 @@ export const names = {
 }
 
 let  defaultSettings = {
-    [names.hunger]: 0,
+    [names.hunger]: 1,
     [names.hungerMode]: 0,
-    [names.protection]: 0,
+    [names.protection]: 1,
     [names.protectionMode]: 0,
-    [names.foodEffects]: 0,
+    [names.foodEffects]: 1,
     [names.foodEffectsMode]: 0,
-    [names.brightness]: 0,
+    [names.brightness]: 1,
     [names.brightnessMode]: 0,
-    [names.drop]: 0,
+    [names.drop]: 1,
     [names.dropMode]: 0,
-    [names.durability]: 0,
+    [names.durability]: 1,
     [names.durabilityMode]: 0,
-    [names.id]: 0,
+    [names.id]: 1,
     [names.idMode]: 0,
-    [names.damage]: 0,
+    [names.damage]: 1,
     [names.damageMode]: 0
 }
 

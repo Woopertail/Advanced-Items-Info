@@ -138,7 +138,7 @@ export const vanillaDrops = {
 
     "minecraft:wool": [
         {mobs: ["sheep"], min: 1},
-        {mobs: ["sheep"], min: 1, max: 3, condition: {
+        {mobs: ["sheep"], min: 1, max: 3, nosimple: true, condition: {
             type: "item_use",
             text: icons.other.shears}
         }
