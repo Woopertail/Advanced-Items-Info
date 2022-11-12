@@ -2,18 +2,18 @@
     "format_version": 2,
 
     "header": {
-        "name": "§bAdvanced Items Info v1.0§r",
+        "name": "§bAdvanced Items Info v1.0.1§r",
         "description": "§rCreated by: §b§lWoopertail\n§rDS: §b§ldiscord.gg/hYtZMEfZSE\n§a§lmcpedl.com/advanced-items-info",
         "uuid": "7301b45f-c4ae-4b8a-bb3c-a0834487c8e0",
         "version": [
             1,
             0,
-            0
+            1
         ],
         "min_engine_version": [
             1,
             19,
-            0
+            40
         ]
     },
 
@@ -25,7 +25,7 @@
             "version": [
                 1,
                 0,
-                0
+                1
             ]
         },
         {
@@ -37,7 +37,7 @@
             "version": [
                 1,
                 0,
-                0
+                1
             ]
         }
     ],
